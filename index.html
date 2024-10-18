@@ -3,38 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Clima App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter your city here" />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Rio de Janeiro</h1>
-        <p>
-          Wednesday 16:27, moderate rain <br />
-          Humidity: 87%, Wind: 7.2km/h
-        </p>
-      </div>
-      <div>☀️ 38°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/frontendmandy" target="_blank"
-        >Amanda Nascimento</a
-      >
-      and is open-sourced on
-      <a href="https://github.com/frontendmandy/Clima" target="_blank"
-        >GitHub</a
-      >
-      and hosted by
-      <a href="https://gilded-brioche-8351f5.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="content-section">
+      <header>
+        <form>
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Enter your city here"
+          />
+          <input type="submit" class="submit-button" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city" id="current-city">Rio de Janeiro</h1>
+            <p class="current-details">
+              Wednesday 16:27, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div ass="current-temperature" cl>
+            <img src="src/sun.png" class="sun-icon" alt="sun icon" />
+            <span class="current-degree">38</span>
+            <span class="current-degree-unit">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/frontendmandy" target="_blank"
+          >Amanda Nascimento</a
+        >
+        and is open-sourced on
+        <a href="https://github.com/frontendmandy/Clima" target="_blank"
+          >GitHub</a
+        >
+        and hosted by
+        <a href="https://gilded-brioche-8351f5.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>

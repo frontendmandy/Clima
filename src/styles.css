@@ -1,0 +1,89 @@
+body {
+  font-family: "Teko", sans-serif;
+  background-image: url("background-sky.PNG");
+  max-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0 auto;
+}
+header {
+  padding-bottom: 30px;
+}
+
+.content-section {
+  max-width: 750px;
+  margin: 200px auto;
+  background-image: url("cloud-single.png");
+  height: 500px;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+
+.search-input {
+  background-color: #dadadad8;
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  margin-top: 140px;
+  margin-left: 50px;
+  width: 57%;
+  border-radius: 6px;
+}
+
+.submit-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #cbcfd0;
+  border: none;
+  padding: 15px 25px;
+  line-height: 1;
+  border-radius: 5px;
+}
+.current-weather {
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.current-city {
+  font-size: 50px;
+  margin: 0;
+}
+
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+}
+.sun-icon {
+  margin: 0 auto;
+  max-width: 100px;
+}
+
+.current-degree {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 90px;
+  font-weight: 600;
+}
+.current-degree-unit {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 65px;
+}
+
+.current-details strong {
+  color: rgb(243, 151, 214);
+}
+
+footer {
+  margin: 25px 0 30px 60px;
+  color: #4b4b4b;
+  font-size: 15px;
+}
+a {
+  color: rgb(243, 151, 214);
+}
