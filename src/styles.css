@@ -47,7 +47,7 @@ header {
   background-color: rgb(243, 151, 214);
   color: #000000;
   cursor: pointer;
-  transition: 120ms ease-in-out;
+  transition: 225ms ease-in-out;
 }
 .current-weather {
   padding: 0 60px;
